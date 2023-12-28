@@ -1,7 +1,7 @@
 import sqlite3
 import os
 
-FLAG = os.getenv("FLAG", "FakeCTF{*** REDACTED ***}")
+FLAG = os.getenv("FLAG", "WHALE{JS0N_INj3C7ion_is_fUn}")
 
 conn = sqlite3.connect("database.db")
 conn.execute("""CREATE TABLE country (
